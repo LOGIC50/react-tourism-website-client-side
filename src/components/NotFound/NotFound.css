@@ -1,0 +1,20 @@
+.not-found {
+    height: 550px;
+    text-align: center;
+    padding: 100px;
+  }
+  .not-found h1 {
+    font-size: 100px;
+    color: red;
+  }
+  
+  .linktop {
+    text-decoration: none;
+    color: white;
+  }
+  .not-found button {
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-size: 20px;
+  }
