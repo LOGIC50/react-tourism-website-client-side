@@ -8,7 +8,7 @@ import Login from './components/Login/Login';
 import ManageOrder from './components/ManageOrder/ManageOrder';
 import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
-import PlaceOrder from './PlaceOrder/PlaceOrder';
+
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
             <AboutUs></AboutUs>
           </Route>
           <Route exact path='/placeorder'>
-            <PlaceOrder></PlaceOrder>
+            
           </Route>
           <Route exact path='/manageorder'>
             <ManageOrder></ManageOrder>
