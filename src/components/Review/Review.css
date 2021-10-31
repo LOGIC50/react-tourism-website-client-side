@@ -1,0 +1,22 @@
+.review-card {
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* width: max-content; */
+  border-radius: 20%;
+}
+.review-portion {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.review-card img {
+  border-radius: 50%;
+  padding: 30px 100px;
+}
+.card {
+  border-radius: 40px 40px 0px 0px;
+  box-shadow: gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

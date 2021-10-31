@@ -1,0 +1,40 @@
+.service img {
+  width: 100%;
+}
+.service {
+  /* background-color: antiquewhite; */
+  margin: 30px;
+  height: 90%;
+  padding: 10px;
+  box-shadow: 3px 5px #f1efef;
+}
+
+@media screen and (max-width: 480px) {
+  .service {
+    margin: 5px;
+    height: 95%;
+    margin-bottom: 10px;
+  }
+}
+.service h6,
+p {
+  text-align: start;
+  padding-top: 10px;
+}
+.service button {
+  background-image: linear-gradient(
+    to right,
+    rgba(163, 175, 212, 0.808),
+    rgba(27, 138, 243, 0.863)
+  );
+  color: yellow;
+  padding: 3px 20px;
+  border-radius: 10%;
+}
+.service button:hover {
+  transform: scale(1.1);
+  color: black;
+}
+.service h2 {
+  color: rgb(245, 170, 8);
+}

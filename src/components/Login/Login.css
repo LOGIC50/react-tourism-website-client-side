@@ -1,0 +1,14 @@
+.login {
+  background-color: lightgreen;
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid rgb(216, 213, 213);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.login h3,
+h5,
+button {
+  margin: 20px;
+}
