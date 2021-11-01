@@ -6,7 +6,8 @@ import initializeAuthentication from "../Firebase/firebase.init";
 initializeAuthentication();
 
 const useFirebase = () => {
-    const [user, setUser] = useState({});
+    const [user, setUser] = useState(null);
+    const [loading, setLoading] = useState(true);
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
@@ -17,21 +18,28 @@ const useFirebase = () => {
     const logout = () => {
         signOut(auth)
         .then(() =>{
-            setUser({})
-        })
-    }
+            setUser(null);
+            setLoading(false);
+        });
+    };
 
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
             if (user) {
               setUser(user);
+              setLoading(false);
+            } else{
+                setUser(null);
+                setLoading(false);
             } 
           });
     }, []);
     return{
         user,
         signInUsingGoogle,
-        logout
+        logout,
+        loading,
+        setLoading
     }
 }
 export default useFirebase;

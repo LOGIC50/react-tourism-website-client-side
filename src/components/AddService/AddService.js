@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React from 'react';
 
-// import { Placeholder } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import './AddService.css';
 
@@ -18,6 +17,7 @@ const AddService = () => {
     return (
         <div className='add-service'>
             <h1>Please Add a Service</h1>
+            <div className='input-portion'>
             <form onSubmit={handleSubmit(onSubmit)}>
             <input {...register("name", { required: true} ) } Placeholder='Service Name' />
             <br />
@@ -33,6 +33,7 @@ const AddService = () => {
             <br />
             <input type="submit" />
             </form>
+            </div>
         </div>
     );
 };

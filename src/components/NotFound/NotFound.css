@@ -1,20 +1,29 @@
 .not-found {
-    height: 550px;
-    text-align: center;
-    padding: 100px;
+  height: 550px;
+  text-align: center;
+  padding: 100px;
+}
+.not-found h1 {
+  font-size: 100px;
+  color: rgb(11, 7, 235);
+}
+
+.linktop {
+  text-decoration: none;
+  color: rgb(241, 44, 44);
+}
+.not-found button {
+  padding: 20px;
+  background-color: rgb(225, 250, 1);
+  border-radius: 10px;
+  font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+  * {
+    margin: auto;
   }
   .not-found h1 {
-    font-size: 100px;
-    color: red;
+    font-size: 40px;
+    color: rgb(11, 7, 235);
   }
-  
-  .linktop {
-    text-decoration: none;
-    color: white;
-  }
-  .not-found button {
-    padding: 20px;
-    background-color: blueviolet;
-    border-radius: 10px;
-    font-size: 20px;
-  }
+}

@@ -1,0 +1,19 @@
+.contact-box {
+  background-color: beige;
+  box-shadow: 5px 10px #bee2e0;
+}
+.contact-portion {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-box {
+    margin: auto;
+  }
+  .contact-portion {
+    margin: auto;
+    width: 100%;
+  }
+}

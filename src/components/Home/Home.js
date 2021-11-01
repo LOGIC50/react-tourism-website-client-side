@@ -13,9 +13,6 @@ const Home = () => {
     .then(res => res.json())
     .then(data => setServices(data))
   }, [])
-  
-
-
     return (
         <div>
             <Carousel variant="dark">
@@ -61,8 +58,7 @@ const Home = () => {
                         service={service}
                         ></Service>
                     </Col>)
-                }
-                
+                }    
             </Row>
             </div>
            <div className='extra-section'>

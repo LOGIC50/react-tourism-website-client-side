@@ -13,7 +13,7 @@ const Review = () => {
     return (
         <div>
             <h4 className='text-center'>Our Traveller Say</h4>
-            <h1>What Our Travellers Say About Us</h1>
+            <h1 className='text-danger'>What Our Travellers Say About Us</h1>
             <div>
             <Row className='review-portion'>
                 {
