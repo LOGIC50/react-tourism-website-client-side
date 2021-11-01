@@ -19,7 +19,7 @@ const Services = () => {
         data.date = startDate;
         const newData = {...data, eventId: event.id, img: event.img}
         axios
-        .post('http://localhost:5000/register', newData)
+        .post('https://still-lake-86681.herokuapp.com/register', newData)
         .then((res) => {
             if(res.data.insertedId){
                 alert('Thanks for Your Registration');
