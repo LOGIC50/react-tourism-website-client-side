@@ -5,7 +5,7 @@ import { useHistory, useLocation, useParams } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css"
-import './Sertvices.css';
+// import './Sertvices.css';
 
 const Services = () => {
     const {user} =useAuth();
