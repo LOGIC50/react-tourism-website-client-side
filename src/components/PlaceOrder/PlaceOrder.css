@@ -1,8 +1,0 @@
-.place-order {
-  height: 600px;
-}
-@media screen and (max-width: 480px) {
-  .place-order {
-    height: 200px;
-  }
-}

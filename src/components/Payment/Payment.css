@@ -1,0 +1,10 @@
+.payment {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.payment h1 {
+  color: red;
+  font-size: 3rem;
+}

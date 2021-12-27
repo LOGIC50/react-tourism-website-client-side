@@ -5,7 +5,16 @@
   font-weight: 900;
   margin-top: 100px;
   margin-bottom: 100px;
-  border: 2px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 800px) {
+  .extra {
+    height: fit-content;
+  }
 }
 .extra-card {
   background-color: rgb(12, 71, 75);

@@ -1,0 +1,14 @@
+.manage-order {
+  width: 50%;
+  margin: 50px auto;
+}
+
+@media screen and (max-width: 600px) {
+  .manage-order {
+    width: 95%;
+  }
+  .manage-order td,
+  button {
+    font-size: 0.5rem;
+  }
+}

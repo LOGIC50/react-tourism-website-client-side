@@ -7,15 +7,6 @@
     width: 100%;
   }
 }
-.carousel-text h1,
-h5 {
-  color: white;
-  font-size: 4em;
-}
-.carousel-text {
-  background: rgba(62, 142, 207, 0.418);
-  margin-bottom: 100px;
-}
 .extra-section {
   margin: auto;
   align-items: center;

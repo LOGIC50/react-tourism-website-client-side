@@ -1,0 +1,11 @@
+.delete-service {
+  margin: 50px auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .delete-service {
+    margin: 30px auto;
+    width: 90%;
+  }
+}

@@ -1,16 +1,32 @@
 .contact-box {
-  background-color: beige;
-  box-shadow: 5px 10px #bee2e0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 .contact-portion {
   width: 50%;
   margin: auto;
-  margin-bottom: 40px;
+
+  height: 90vh;
+  justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .contact-box {
-    margin: auto;
+    margin: 30px auto;
   }
   .contact-portion {
     margin: auto;
