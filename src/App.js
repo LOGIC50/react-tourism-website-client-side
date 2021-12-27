@@ -1,4 +1,3 @@
-// import { Placeholder } from 'react-bootstrap';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import AboutUs from "./components/AboutUs/AboutUs";
@@ -12,7 +11,6 @@ import Login from "./components/Login/Login";
 import ManageOrder from "./components/ManageOrder/ManageOrder";
 import NotFound from "./components/NotFound/NotFound";
 import Payment from "./components/Payment/Payment";
-import PlaceOrder from "./components/PlaceOrder/PlaceOrder";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import ServicePage from "./components/ServicePage/ServicePage";
 import Services from "./components/Services/Services";

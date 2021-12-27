@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import useAuth from "../../hooks/useAuth";
 import "./ManageOrder.css";
 
 const ManageOrder = () => {

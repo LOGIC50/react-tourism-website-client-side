@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container } from "react-bootstrap";
-// import { Col, Row } from 'react-bootstrap';
 import { useHistory } from "react-router";
 import "./Service.css";
 
